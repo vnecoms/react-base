@@ -1,0 +1,25 @@
+{
+  "name": "vnecoms/react-base",
+  "type": "magento2-module",
+  "version": "2.0.0",
+  "description": "Intergrate reactjs to magento 2 module",
+  "require": {
+    "magento/framework": "^101.0",
+    "php": ">=7.0.0"
+  },
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "email": "tuna@vnecoms.com",
+      "name": "Tu Nguyen"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Vnecoms\\ReactBase\\": ""
+    }
+  }
+}
